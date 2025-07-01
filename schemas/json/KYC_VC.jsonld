@@ -1,0 +1,27 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "kyc": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "iden3-vocab": "urn:uuid:2cf6281b-8b44-4102-9888-57bb7da880b1#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "Provider": {
+                        "@id": "iden3-vocab:Provider",
+                        "@type": "xsd:string"
+                    },
+                    "KycId": {
+                        "@id": "iden3-vocab:KycId",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:0b2f58c2-88ab-4a66-acb8-c79f5350dcbf"
+            }
+        }
+    ]
+}
