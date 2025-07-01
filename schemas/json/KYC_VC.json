@@ -2,7 +2,7 @@
     "$metadata": {
         "type": "kyc",
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://github.com/Veerabala10/claim-schema-vocab/blob/main/schemas/json/KYC_VC.jsonld"
         },
         "version": "3.0"
     },
