@@ -1,0 +1,49 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "OrganizationCredential": {
+        "@id": "https://github.com/Veerabala10/claim-schema-vocab/blob/main/schemas/json-ld/organization-v1.json-ld#OrganizationCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "organization-vocab": "https://github.com/Veerabala10/claim-schema-vocab/blob/main/credentials/organization.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "documentURI": {
+            "@id": "organization-vocab:documentURI",
+            "@type": "xsd:anyURI"
+          },
+          "organizationName": {
+            "@id": "organization-vocab:organizationName",
+            "@type": "xsd:string"
+          },
+          "organizationAddress": {
+            "@id": "organization-vocab:organizationAddress",
+            "@type": "xsd:string"
+          },
+          "organizationType": {
+            "@id": "organization-vocab:organizationType",
+            "@type": "xsd:string"
+          },
+          "employeeIdNumber": {
+            "@id": "organization-vocab:employeeIdNumber",
+            "@type": "xsd:string"
+          },
+          "applicantRoleInOrganization": {
+            "@id": "organization-vocab:applicantRoleInOrganization",
+            "@type": "xsd:string"
+          },
+          "documentType": {
+            "@id": "organization-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
