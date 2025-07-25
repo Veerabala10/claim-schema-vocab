@@ -4,7 +4,7 @@
   "$metadata": {
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/schemas/json-ld/organization-v1.json-ld",
-      "jsonSchema": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/256afd5fda1273ee2ebce163ed5bba562068b0bf/schemas/json/Organization-v1.json"
+      "jsonSchema": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/schemas/json/Organization-v1.json"
     }
   },
   "required": [
