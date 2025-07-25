@@ -6,13 +6,13 @@
       "id": "@id",
       "type": "@type",
       "OrganizationCredential": {
-        "@id": "https://github.com/Veerabala10/claim-schema-vocab/blob/main/schemas/json-ld/organization-v1.json-ld#OrganizationCredential",
+        "@id": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/schemas/json-ld/organization-v1.json-ld#OrganizationCredential",
         "@context": {
           "@version": 1.1,
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "organization-vocab": "https://github.com/Veerabala10/claim-schema-vocab/blob/main/credentials/organization.md#",
+          "organization-vocab": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/credentials/organization.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "documentURI": {
             "@id": "organization-vocab:documentURI",
