@@ -1,0 +1,97 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "IdentityCredential": {
+        "@id": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/schemas/json-ld/identity-v1.json-ld#IdentityCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "identity-vocab": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/credentials/identity.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "firstName": {
+            "@id": "identity-vocab:firstName",
+            "@type": "xsd:string"
+          },
+          "middleName": {
+            "@id": "identity-vocab:middleName",
+            "@type": "xsd:string"
+          },
+          "lastName": {
+            "@id": "identity-vocab:lastName",
+            "@type": "xsd:string"
+          },
+          "dateOfBirth": {
+            "@id": "identity-vocab:dateOfBirth",
+            "@type": "xsd:date"
+          },
+          "gender": {
+            "@id": "identity-vocab:gender",
+            "@type": "xsd:string"
+          },
+          "nationality": {
+            "@id": "identity-vocab:nationality",
+            "@type": "xsd:string"
+          },
+          "idType": {
+            "@id": "identity-vocab:idType",
+            "@type": "xsd:string"
+          },
+          "idNumber": {
+            "@id": "identity-vocab:idNumber",
+            "@type": "xsd:string"
+          },
+          "street": {
+            "@id": "identity-vocab:street",
+            "@type": "xsd:string"
+          },
+          "city": {
+            "@id": "identity-vocab:city",
+            "@type": "xsd:string"
+          },
+          "state": {
+            "@id": "identity-vocab:state",
+            "@type": "xsd:string"
+          },
+          "zipcode": {
+            "@id": "identity-vocab:zipcode",
+            "@type": "xsd:string"
+          },
+          "contactNumber": {
+            "@id": "identity-vocab:contactNumber",
+            "@type": "xsd:string"
+          },
+          "emailAddress": {
+            "@id": "identity-vocab:emailAddress",
+            "@type": "xsd:string"
+          },
+          "documentURI": {
+            "@id": "identity-vocab:documentURI",
+            "@type": "xsd:anyURI"
+          },
+          "documentFrontURI": {
+            "@id": "identity-vocab:documentFrontURI",
+            "@type": "xsd:anyURI"
+          },
+          "documentBackURI": {
+            "@id": "identity-vocab:documentBackURI",
+            "@type": "xsd:anyURI"
+          },
+          "selfieURI": {
+            "@id": "identity-vocab:selfieURI",
+            "@type": "xsd:anyURI"
+          },
+          "documentType": {
+            "@id": "identity-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}

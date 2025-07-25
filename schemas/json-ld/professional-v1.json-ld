@@ -1,0 +1,65 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProfessionalCredential": {
+        "@id": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/schemas/json-ld/professional-v1.json-ld#ProfessionalCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "professional-vocab": "https://raw.githubusercontent.com/Veerabala10/claim-schema-vocab/refs/heads/main/credentials/professional.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "fullName": {
+            "@id": "professional-vocab:fullName",
+            "@type": "xsd:string"
+          },
+          "jobTitle": {
+            "@id": "professional-vocab:jobTitle",
+            "@type": "xsd:string"
+          },
+          "certificationNumber": {
+            "@id": "professional-vocab:certificationNumber",
+            "@type": "xsd:string"
+          },
+          "issuingAuthorityBoard": {
+            "@id": "professional-vocab:issuingAuthorityBoard",
+            "@type": "xsd:string"
+          },
+          "yearsOfExperience": {
+            "@id": "professional-vocab:yearsOfExperience",
+            "@type": "xsd:integer"
+          },
+          "fieldIndustryExpertise": {
+            "@id": "professional-vocab:fieldIndustryExpertise",
+            "@type": "xsd:string"
+          },
+          "linkedinProfile": {
+            "@id": "professional-vocab:linkedinProfile",
+            "@type": "xsd:anyURI"
+          },
+          "contactNumberOfWork": {
+            "@id": "professional-vocab:contactNumberOfWork",
+            "@type": "xsd:string"
+          },
+          "emailAddressOfWork": {
+            "@id": "professional-vocab:emailAddressOfWork",
+            "@type": "xsd:string"
+          },
+          "documentURI": {
+            "@id": "professional-vocab:documentURI",
+            "@type": "xsd:anyURI"
+          },
+          "documentType": {
+            "@id": "professional-vocab:documentType",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
