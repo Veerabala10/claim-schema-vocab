@@ -109,8 +109,7 @@
           "format": "uri"
         },
         "documentURI": {
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
         "organizationName": {
           "type": "string"
