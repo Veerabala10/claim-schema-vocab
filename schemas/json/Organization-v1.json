@@ -96,11 +96,9 @@
       "type": "object",
       "required": [
         "id",
-        "documentURI",
         "organizationName",
         "organizationAddress",
         "organizationType",
-        "employeeIdNumber",
         "applicantRoleInOrganization",
         "documentType"
       ],
